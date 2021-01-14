@@ -1,0 +1,58 @@
+html {
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    
+}
+#left {
+    float: left;
+    padding-top: 20px;
+}
+#right {
+    float: right;
+    padding-top: 20px;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding-left: 15px;
+    opacity: 0.75;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+body {
+    text-align: center;
+}
+#wrapper {
+    min-height: calc(100vh - 50px);
+}
+#logo {
+    padding-top: 200px;
+    width: 272px;
+}
+#searchbar {
+    display: block;
+    margin: 0 auto;
+    height: 34px;
+    line-height: 34px;
+    font-size: 16px;
+    margin-top: 25px;
+}
+footer {
+    height: 50px;
+}
+input[type="button"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(248, 249, 250)
+} 
+#canada {
+    display: block;
+}

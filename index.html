@@ -3,34 +3,36 @@
     <head>
         <meta charset="utf-8">
         <title>Mock Google homepage</title>
-        <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/reset.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="reset.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="style.css" rel="stylesheet" type="text/css" media="all"/>
     </head>
     <header>
         <ul>
             <li id="left"><a href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header">About</a></li>
             <li id="left"><a href="https://store.google.com/CA?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA">Store</a></li>
-            <li id="right"><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
-            <li id="right"><a href="https://www.google.ca/imghp?hl=en&tab=wi&ogbl">Images</a></li>
             <li id="right"><img id="profile" alt="User profile picture" 
-            src="https://lh3.googleusercontent.com/ogw/ADGmqu_v08xiapD90OLEe9nyc1B4b_BNN5P0r0CF7_s-lQ=s32-c-mo"></li>
+                src="https://lh3.googleusercontent.com/ogw/ADGmqu_v08xiapD90OLEe9nyc1B4b_BNN5P0r0CF7_s-lQ=s32-c-mo"></li>
+            <li id="right"><a href="https://www.google.ca/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+            <li id="right"><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>    
         </ul>
     </header>
-    <body>
-        <img id="logo" alt="Google logo" 
-        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
-        <form>
-            <input type="text" id="searchbar">
-            <input type="button" value="Google Search">
-            <input type="button" value="I'm Feeling Lucky">
-        </form>
-        <div>
-            Google offered in:
-            <a href="https://www.google.com/setprefs?sig=0_rib-XS9RbAaTzxSZ3-xQ_7ealDM%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwihxd-p9JnuAhUyJDQIHZ4yC6IQ2ZgBCBA">Français</a>
-        </div>
-    </body>
+    <div id="wrapper">
+        <body>
+            <img id="logo" alt="Google logo" 
+            src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+            <form>
+                <input type="text" id="searchbar">
+                <input type="button" value="Google Search">
+                <input type="button" value="I'm Feeling Lucky">
+            </form>
+            <div>
+                Google offered in:
+                <a href="https://www.google.com/setprefs?sig=0_rib-XS9RbAaTzxSZ3-xQ_7ealDM%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwihxd-p9JnuAhUyJDQIHZ4yC6IQ2ZgBCBA">Français</a>
+            </div>
+        </body>
+    </div>    
     <footer>
-        <ul>
+        <ul id="canada">
             <li id="left">Canada</li>
         </ul>
         <ul>
